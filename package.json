@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husk install",
-    "lint": "eslint --fix src/**/*.tsx",
+    "lint:fix": "eslint --fix src/**/*.tsx",
     "pre-commit": "npx lint-staged"
   },
   "eslintConfig": {

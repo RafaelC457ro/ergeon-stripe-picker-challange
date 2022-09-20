@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  .container {
-    width: 100%;
-  }
+  width: 100%;
 
   @media (min-width: 640px) {
     max-width: 640px;

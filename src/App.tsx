@@ -1,24 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components";
+import { StripeDatePicker } from "./components/StripeDatePicker";
 
-function App() {
+const Header = styled.div`
+  display: flex;
+  align-items: center;
+  padding: 0px 15px;
+  height: 60px;
+  background-color: #0970ce;
+  color: #fff;
+`;
+
+const Footer = styled.div`
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+`;
+const Main = styled.main`
+  height: calc(100vh - 100px);
+`;
+
+function App(): JSX.Element {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header>
+        <h1> Ergeon Challange! </h1>
+      </Header>
+      <Main>
+        <StripeDatePicker />
+      </Main>
+      <Footer>
+        <div>Author: Rafael Castro&#60;rccastrorafael@gmail.com&#62; 2022</div>
+      </Footer>
     </div>
   );
 }

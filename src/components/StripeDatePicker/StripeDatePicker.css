@@ -1,0 +1,45 @@
+.Stripe-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.Stripe-header-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.Stripe-header-display {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 5px;
+}
+
+.Stripe-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.Stripe-arrow svg {
+  height: 20px;
+  width: 20px;
+}
+
+.Stripe-body-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.Stripe-days-container {
+  display: flex;
+}
+
+.Stripe-days-container * + * {
+  margin-left: 3px;
+}

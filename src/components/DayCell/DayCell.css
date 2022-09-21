@@ -1,0 +1,32 @@
+.Stripe-day-cell {
+  width: 50px;
+  height: 50px;
+  padding: 6px;
+}
+
+.Stripe-day-cell.selected {
+  background-color: #3f51b5;
+  color: white;
+  border-radius: 50%;
+}
+
+.Stripe-day-cell.active {
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.Stripe-day-cell.selected .Stripe-day-cell-text {
+  color: white;
+}
+
+.Stripe-day-cell-text {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.Stripe-day-cell-day {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+}

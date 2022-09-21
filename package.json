@@ -23,7 +23,6 @@
     "test": "react-scripts test",
     "coverage": "react-scripts test --coverage",
     "eject": "react-scripts eject",
-    "prepare": "husk install",
     "lint:fix": "eslint --fix src/**/*.tsx",
     "pre-commit": "npx lint-staged"
   },
